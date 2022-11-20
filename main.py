@@ -26,8 +26,8 @@ st.error('This is an error')
 #     time.sleep(5)
 # st.success('Done!')
 
-sl_val = st.slider("slider")
-st.write(sl_val)
+sl_val = st.slider("Celsius")
+st.write(sl_val, "in Farhernheit is:", sl_val * 9/5 + 32)
 
 with st.form("my_form"):
     st.write("Inside the form")
