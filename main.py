@@ -12,7 +12,7 @@ data = {
 
 df = pandas.DataFrame(data)
 
-st.title('first test with streamlit, git and python')
+st.title('second test with streamlit, git and python')
 st.subheader('This is a subheader')
 st.write('''This is a first test with the framework streamlit.io and python. Just for deploying python web apps.
 write code in editor, push and automated publish. Is realtime code updates also possible?''')
@@ -49,7 +49,7 @@ mm = 11
    
 # display the calendar
 c = calendar.TextCalendar(calendar.MONDAY)
-str = c.formatmonth(2025, 1, 0, 0)
+str = c.formatmonth(2022, 1, 1, 1)
 st.text(str)
 
 add_selectbox = st.sidebar.text(str)
