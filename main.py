@@ -7,7 +7,7 @@ import calendar
 
 data = {
     'Series_1': [1, 2, 4, 6, 9, 22, 50],
-    'Series_2': [22, 5, 7, 77, 9, 45, 8]
+    'Series_2': [2, 5, 7, 11, 9, 19, 27]
 }
 
 df = pandas.DataFrame(data)
