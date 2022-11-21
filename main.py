@@ -42,7 +42,7 @@ with st.form("my_form"):
 st.write("Outside the form")
 
 with st.echo():
-    st.write('This code will be printed')
+    'this is code: st.write("This code will be printed")'
    
 yy = 2022
 mm = 11
