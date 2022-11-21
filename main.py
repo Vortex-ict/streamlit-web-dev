@@ -23,7 +23,7 @@ st.area_chart(df)
 # st.balloons()
 st.error('This is an error')
 with st.spinner('Wait for it...'):
-    time.sleep(15)
+    time.sleep(1)
 st.success('Done!')
 
 sl_val = st.slider("Celsius")
