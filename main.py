@@ -54,6 +54,10 @@ st.text(str)
 
 add_selectbox = st.sidebar.text(str)
 
+x = 0
+while x < 10:
+    st.write(x)
+    x += 1
 
 st.line_chart({"data": [130, 5*sl_val, 2*sl_val, 6*sl_val, 2*sl_val, 210, sl_val]})
 
