@@ -20,7 +20,7 @@ write code in editor, push and automated publish. Is realtime code updates also 
 st.write(df)
 st.line_chart(df)
 st.area_chart(df)
-st.balloons()
+# st.balloons()
 st.error('This is an error')
 with st.spinner('Wait for it...'):
     time.sleep(5)
