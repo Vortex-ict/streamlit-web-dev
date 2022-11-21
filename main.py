@@ -20,11 +20,11 @@ write code in editor, push and automated publish. Is realtime code updates also 
 st.write(df)
 st.line_chart(df)
 st.area_chart(df)
-# st.balloons()
+st.balloons()
 st.error('This is an error')
-# with st.spinner('Wait for it...'):
-#     time.sleep(5)
-# st.success('Done!')
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+st.success('Done!')
 
 sl_val = st.slider("Celsius")
 st.write(sl_val, "in Farhernheit is:", sl_val * 9/5 + 32)
@@ -41,8 +41,8 @@ with st.form("my_form"):
 
 st.write("Outside the form")
 
-# with st.echo():
-#     st.write('This code will be printed')
+with st.echo():
+    st.write('This code will be printed')
    
 yy = 2022
 mm = 11
@@ -77,5 +77,5 @@ with col1:
 
 with col2:
     st.header("An owl")
-    # st.image("https://static.streamlit.io/examples/owl.jpg")
+    st.image("https://static.streamlit.io/examples/owl.jpg")
     st.text(str)
