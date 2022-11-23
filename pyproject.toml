@@ -2,7 +2,7 @@
 name = "streamlit-web-dev"
 version = "0.1.0"
 description = ""
-authors = ["Rene Vrijenhoek <info@vortex-ict.nl>"]
+authors = ["vortex-ict"]
 readme = "README.md"
 packages = [{include = "streamlit_web_dev"}]
 
