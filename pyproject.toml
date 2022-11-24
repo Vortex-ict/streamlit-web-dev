@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "streamlit_web_dev"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9.7"
 pandas = "^1.5.2"
 streamlit = "^1.15.1"
 
